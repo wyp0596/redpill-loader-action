@@ -4,9 +4,9 @@
 sudo apt-get update && sudo apt-get install --yes --no-install-recommends ca-certificates build-essential git libssl-dev curl cpio bspatch vim gettext bc bison flex dosfstools kmod jq
 
 root=`pwd`
-mkdir ds918-7.0
+mkdir ds918-7.0.1
 mkdir output
-cd ds918-7.0
+cd ds918-7.0.1
 
 # download redpill
 git clone --depth=1 https://github.com/RedPill-TTG/redpill-lkm.git
