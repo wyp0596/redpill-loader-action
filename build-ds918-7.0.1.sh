@@ -9,7 +9,7 @@ mkdir output
 cd ds918-7.0.1
 
 # download redpill
-git clone --depth=1 https://github.com/RedPill-TTG/redpill-lkm.git
+git clone --depth=1 https://github.com/jumkey/redpill-lkm.git
 git clone --depth=1 https://github.com/sakurawill/redpill-load.git
 
 # download syno toolkit
