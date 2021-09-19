@@ -9,8 +9,9 @@ mkdir output
 cd ds918-7.0
 
 # download redpill
-git clone --depth=1 https://github.com/RedPill-TTG/redpill-lkm.git
-git clone --depth=1 https://github.com/RedPill-TTG/redpill-load.git
+git clone --depth=1 https://github.com/jumkey/redpill-lkm.git
+git clone --depth=1 https://github.com/sakurawill/redpill-load.git
+#git clone --depth=1 https://github.com/RedPill-TTG/redpill-load.git
 
 # download syno toolkit
 curl --location "https://sourceforge.net/projects/dsgpl/files/toolkit/DSM7.0/ds.apollolake-7.0.dev.txz/download" --output ds.apollolake-7.0.dev.txz
