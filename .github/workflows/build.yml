@@ -17,7 +17,7 @@ jobs:
         run: |
             bash build-ds918-7.0.1new.sh
 
-      - name: Archive DS918+ 7.0 loader image
+      - name: Archive DS918+ 7.0.1 loader image
         uses: actions/upload-artifact@v2
         with:
           name: redpill-DS918+_7.0.1-loader
